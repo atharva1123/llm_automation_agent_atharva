@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+pillow
+pytesseract
+numpy
+markdown
+speechrecognition
+beautifulsoup4
