@@ -1,7 +1,7 @@
 # app/utils/llm_utils.py
 import os, requests
 
-AIPROXY_TOKEN = os.environ.get("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDI1MzlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.zG6mIw8Zch5LdZRtnjpyXJBH0u91kSEpToxfO0kArYk")
+AIPROXY_TOKEN = os.environ.get("AIPROXY_TOKEN")
 LLM_API_URL = "https://api.llm-proxy.example.com/gpt-4o-mini"  # Replace with the actual API URL
 
 def call_llm(prompt: str) -> str:
